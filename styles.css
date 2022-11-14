@@ -1,0 +1,65 @@
+/* Santiago Acuna JR. CONNECT 4 */
+
+h1 {
+    background-color: lightskyblue;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: lightcoral;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    background-color: cadetblue;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#board {
+    height: 540px;
+    width: 630px;
+    background-color: navy;
+    border: 15px solid black;
+    border-radius: 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid navy;
+}
+
+.red-piece {
+    background-color: red;
+}
+
+.yellow-piece {
+    background-color: yellow;
+}
+
+h3 {
+    font-size: 32px
+}
+
+button {
+    background-color: magenta;
+    padding: 16px;
+    width: 150px;
+    height: 125px;
+    margin-top: 8px;
+    border-radius: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
